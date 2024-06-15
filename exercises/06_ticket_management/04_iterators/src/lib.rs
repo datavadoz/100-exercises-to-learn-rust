@@ -5,6 +5,7 @@ use ticket_fields::{TicketDescription, TicketTitle};
 //  it contains using a `for` loop.
 //
 // Hint: you shouldn't have to implement the `Iterator` trait in this case.
+
 #[derive(Clone)]
 pub struct TicketStore {
     tickets: Vec<Ticket>,
